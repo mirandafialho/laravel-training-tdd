@@ -1,0 +1,15 @@
+#!/bin/sh
+
+NC='\033[0m'
+BBlue='\033[1;34m'
+
+echo -e "${BBlue}Running Composer Setup for Laravel${NC}"
+
+composer require friendsofphp/php-cs-fixer --dev
+composer require squizlabs/php_codesniffer --dev
+composer require nunomaduro/larastan --dev
+composer require pestphp/pest-plugin-laravel --dev
+composer require pestphp/pest-plugin-parallel --dev
+composer require barryvdh/laravel-debugbar --dev
+composer require laravel/telescope --dev
+composer require spatie/laravel-ray --dev
