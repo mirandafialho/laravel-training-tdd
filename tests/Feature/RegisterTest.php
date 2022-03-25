@@ -10,8 +10,6 @@ use Tests\TestCase;
 
 class RegisterTest extends TestCase
 {
-    use RefreshDatabase;
-
     /**
      *
      * @test

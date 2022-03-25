@@ -13,8 +13,6 @@ use Tests\TestCase;
 
 class InvitationTest extends TestCase
 {
-    use RefreshDatabase;
-
     /**
      * A basic feature test example.
      *
